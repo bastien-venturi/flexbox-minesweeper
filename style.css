@@ -1,0 +1,71 @@
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+section
+{
+    border: 30px groove rgb(219, 217, 217) ;
+    background-color: grey;
+    width: 850px;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.col
+{
+    border: 3px dotted;
+    width: 100px;
+    height: 100px;  
+}
+
+.one
+{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    font-size: 500%;
+}
+
+.two
+{
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    font-size: 500%;
+}
+
+.three
+{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    font-size: 500%;
+}
+
+.bombe 
+{
+    background-image: url(https://github.com/bastien-venturi/flexbox-minesweeper/blob/main/bomb.gif?raw=true);
+    background-position: center;
+    height: 100px;
+}
+
+.full
+{
+    border: 20px groove rgb(187, 185, 185) ;
+    background-color: rgb(187, 185, 185);
+    width: 60px;
+    height: 60px;
+    
+    
+}
