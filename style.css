@@ -63,7 +63,14 @@ section
 .full
 {
     border: 20px groove rgb(187, 185, 185) ;
-    background-color: rgb(187, 185, 185);
     width: 60px;
     height: 60px;
+}
+.full:hover 
+{
+    border: none;
+    background-image: url(https://github.com/bastien-venturi/flexbox-minesweeper/blob/main/bomb.gif?raw=true);
+    background-position: center;
+    height: 100px;
+    width: 100px;
 }
